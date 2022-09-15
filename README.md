@@ -31,11 +31,36 @@ The executions were controlled and timed with Powershell and the Measure-Command
 ## Terraform scripts
 Terraform modules were used to promote isolation, reusability, and modularity. Below we have the scripts for each Azure cloud service as implemented.
 
-###
-Main Terraform project files
-
+### Main Terraform project files
 The following Terraform scripts were created for the main Terraform project:
 * main.tf
 * variables.tf
 * outputs.tf
+
+### Azure Application Insights
+The following Terraform scripts were created for Azure Application Insights:
+* main.tf
+* variables.tf
+* outputs.tf
+
+### MySQL database
+The following Terraform scripts were created for MySQL:
+* main.tf
+* variables.tf
+* outputs.tf
+
+### Azure Spring Cloud
+The following Terraform scripts were created for Azure Spring Cloud:
+* main.tf
+* variables.tf
+* outputs.tf
+
+### Azure Storage
+The following Terraform scripts were created for Azure Storage Blob:
+* main.tf
+* variables.tf
+* outputs.tf
+
+
+
 
