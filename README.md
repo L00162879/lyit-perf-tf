@@ -21,3 +21,9 @@ Azure Spring Cloud runtime, one Azure storage account, one MySQL server, and one
   <img alt ="Azure Services – Terraform definitions" width="602" height="122" src="/media/azure-services-tf-definitions.png">
 </p>
 
+## Command line interface
+The executions were controlled and timed with Powershell and the Measure-Command cmdlet. A cmdlet is a lightweight command used in the PowerShell environment. Such strategy also provided an impartial way of starting the execution scripts for Terraform and Bicep.
+
+<p align="center">
+  <img alt ="Azure Services – Terraform definitions" src="/media/lyit-perf-tf-RUNNING.png">
+</p>
