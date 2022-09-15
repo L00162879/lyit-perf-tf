@@ -15,3 +15,9 @@ The following Azure cloud services have been specified and the respective script
 * Azure Database for MySQL single server
 * Azure Blob Storage
 
+Azure Spring Cloud runtime, one Azure storage account, one MySQL server, and one Azure App Insights component was used for all the scenarios with both IaC tools. The services for both Terraform and Biceps are below. 
+
+<p align="center">
+  <img alt ="Azure Services – Terraform definitions" width="602" height="122" src="/media/azure-services-tf-definitions.png">
+</p>
+
