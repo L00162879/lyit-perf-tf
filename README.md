@@ -133,7 +133,6 @@ mkdir lyit-perf-tf
 cd lyit-perf-tf
 git clone https://github.com/L00162879/lyit-perf-tf.git
 
-
 ```
 
 Note that when you're using Azure Cloud Shell, you're already logged in. In case you want to execute the commands from your local CLI tool (bash, Windows CMD), remember to login in first:
@@ -141,7 +140,6 @@ Note that when you're using Azure Cloud Shell, you're already logged in. In case
 ```powershell
 
 az login
-
 
 ```
 
@@ -154,8 +152,6 @@ terraform fmt
 terraform validate
 terraform plan -out terraform.plan
 
-
-
 ```
 
 After that, it is possible to start the benchmark tests. They will be timed with the support of a cmdlet provided by Powershell called Measure-Command as shown below: 
@@ -164,9 +160,15 @@ The next step is to start the provisioning of the desired Azure services:
 
 ```powershell
 
+Measure-Command { terraform apply "terraform.plan" }
+
+```
+
+If you want to run with the switch for parallelism:
+
+```powershell
+
 Measure-Command { terraform apply -parallelism=200 "terraform.plan" }
-
-
 
 ```
 
