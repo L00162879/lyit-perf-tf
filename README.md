@@ -27,3 +27,15 @@ The executions were controlled and timed with Powershell and the Measure-Command
 <p align="center">
   <img alt ="Azure Services – Terraform definitions" src="/media/lyit-perf-tf-RUNNING.png">
 </p>
+
+## Terraform scripts
+Terraform modules were used to promote isolation, reusability, and modularity. Below we have the scripts for each Azure cloud service as implemented.
+
+###
+Main Terraform project files
+
+The following Terraform scripts were created for the main Terraform project:
+* main.tf
+* variables.tf
+* outputs.tf
+
