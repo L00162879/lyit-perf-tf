@@ -3,7 +3,7 @@ The lab environment used for this research was built by following the best pract
 
 ## Test workbench
 A representation of our benchmark workbench is below. Visual Studio Code was used to implement the Terraform and Bicep scripts. Then Azure Cloud Shell was used to execute the scripts. 
-![Test workbench](https://L00162879@github.com/L00162879/lyit-perf-tf/media/test-workbench.png)
+![Test workbench](https://github.com/L00162879/lyit-perf-tf/media/test-workbench.png)
 
 ## Azure cloud services
 The following Azure cloud services have been specified and the respective scripts for both Terraform and Bicep have been implemented:
