@@ -175,3 +175,18 @@ As soon as the execution completes, a message is shown as below. You can then ex
 <p align="center">
   <img alt ="Terraform - Architectural representation" src="/media/lyit-perf-tf-SUCCESS.png">
 </p>
+
+After many runs, you can aggregate and analyse the results as required. A sample Excel spreadsheet is below along
+with a couple of charts.
+
+<p align="center">
+  <img alt ="Terraform - Architectural representation" src="/media/terraform-SAMPLES.png">
+</p>
+
+<p align="center">
+  <img alt ="Terraform - Architectural representation" src="/media/terraform-CHART-1.png">
+</p>
+
+<p align="center">
+  <img alt ="Terraform - Architectural representation" src="/media/terraform-CHART-2.png">
+</p>
